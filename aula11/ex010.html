@@ -7,7 +7,23 @@
 </head>
 <body>
     <h1>Sistemas de multas</h1>
-    <label for="ivel">Velocidade do carro: </label>
-    <input type="number" name="vel" id="ivel" placeholder="Km/h">
+    <label for="itxtvel">Velocidade do carro: </label>
+    <input type="number" name="txtvel" id="itxtvel" placeholder="Km/h">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res"></div>
+
+    <script>
+        function calcular() {
+            var txtvel = document.querySelector
+            ('#itxtvel')
+            var res = document.getElementById('res')
+            var vel = Number(itxtvel.value)
+            res.innerHTML = `<p>Sua velocidade é de <strong>${vel}Km/h</strong></p>`
+            if (vel > 60) {
+                res.innerHTML += '<p>Você está <strong>MULTADO</strong> por excesso de velocidade.'
+            }
+            res.innerHTML += '<p>Diriga sempre com o cinto de segurança!</p'
+        }
+    </script>
 </body>
 </html>
