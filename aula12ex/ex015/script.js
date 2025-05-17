@@ -6,8 +6,6 @@ function verificar(){
 
     if (fano.value.length == 0 || Number(fano.value) > ano) {
         window.alert('Verifique os dados novamente.')
-    } else if (fano.value.length < 1925) {
-        window.alert('Talvez você tenha removido seu nome do livro da vida e da morte')
     } else {
         var sex = document.getElementsByName('sex')
         var idade = ano - Number(fano.value)
