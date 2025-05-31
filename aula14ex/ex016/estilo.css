@@ -30,6 +30,7 @@ section form > p {
     cursor: pointer;
     margin-block-start: 0;
     margin-block-end: 0;
+    align-content: center;
 }
 
 section form > input {
