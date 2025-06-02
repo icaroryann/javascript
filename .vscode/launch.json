@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Iniciar o Chrome em relação a localhost",
-            "url": "http://127.0.0.1:3000/aula14ex/ex016/modelo.html",
+            "url": "http://127.0.0.1:3000/aula14ex/ex017/modelo.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

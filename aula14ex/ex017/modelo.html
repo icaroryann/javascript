@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
-            Testando...
+            <label for="inumero">Número: </label>
+            <input type="number" name="numero" id="inumero">
+            <button onclick="tabuada()">Gerar Tabuada</button>
         </div>
         <div>
-            Olá!
+            <!--<textarea name="res" id="iresultado" rows="10" placeholder="Digite um texto acima" disabled>
+            </textarea>-->
+            <select name="resultado" id="iresultado" size="10">
+                <option>Digite um número acima</option>
+            </select>
         </div>
     </section>
     <footer>
