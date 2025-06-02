@@ -11,20 +11,17 @@
         <h1>Vamos contar</h1>
     </header>
     <section>
-        <div>
-            <form action="resultado.php" method="get" autocomplete="on">
+        <div id="dados">
+            <label for="iinicio">Início:</label>
+            <input type="number" name="inicio" id="iinicio"> <br>
 
-                <label for="iinicio">Início:</label>
-                <input type="number" name="inicio" id="iinicio"> <br>
+            <label for="ifim">Fim:</label>
+            <input type="number" name="fim" id="ifim"> <br>
 
-                <label for="ifim">Fim:</label>
-                <input type="number" name="fim" id="ifim"> <br>
+            <label for="ipasso">Passo:</label>
+            <input type="number" name="passo" id="ipasso"> <br>
 
-                <label for="ipasso">Passo:</label>
-                <input type="number" name="passo" id="ipasso"> <br>
-
-                <p onclick="contar()">Contar</p>
-            </form>
+            <button onclick="contar()">Contar</button>
         </div>
         <div>
             <p id="resultado">Preparando a contagem...</p>
